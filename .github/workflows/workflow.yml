@@ -21,7 +21,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install flake8 nose
+          pip install flake8 nose coverage
 
       - name: Lint with flake8
         run: |
